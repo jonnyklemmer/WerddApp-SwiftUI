@@ -9,7 +9,18 @@ import SwiftUI
 
 struct HeaderView: View {
     var body: some View {
-        Text("HeaderWordView")
+        HStack {
+            Text("Werdd.")
+                .font(.system(size: 36, design: .rounded))
+                .fontWeight(.semibold)
+
+            Spacer()
+
+            Image(systemName: "heart.text.square.fill")
+                .resizable()
+                .frame(width: 40, height: 40)
+                .foregroundColor(.foreground4)
+        }
     }
 }
 

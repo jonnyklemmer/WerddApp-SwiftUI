@@ -8,13 +8,24 @@
 import SwiftUI
 
 struct SearchWordView: View {
+    let word: String
+    let partOfSpeech: String
+    let definition: String
+
     var body: some View {
-        Text("SearchWordView")
+        ZStack {
+            Color.foreground3
+
+            WordView(word: word, partOfSpeech: partOfSpeech, definition: definition)
+                .padding(24)
+        }
+        .fixedSize(horizontal: false, vertical: true)
+        .clipShape(RoundedRectangle(cornerRadius: 30))
     }
 }
 
 struct SearchWordView_Previews: PreviewProvider {
     static var previews: some View {
-        SearchWordView()
+        SearchWordView(word: "preview", partOfSpeech: "verb", definition: "gettin a sneak peek.")
     }
 }

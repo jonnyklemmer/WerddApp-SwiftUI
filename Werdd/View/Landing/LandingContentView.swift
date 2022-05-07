@@ -9,7 +9,23 @@ import SwiftUI
 
 struct LandingContentView: View {
     var body: some View {
-        Text("LandingContentView")
+        ZStack {
+            Color.background1
+                .edgesIgnoringSafeArea(.all)
+
+            VStack(spacing: 0) {
+                VStack {
+                    HeaderView()
+                    RandomWordView()
+                }
+                .padding([.leading, .trailing, .bottom], 24)
+
+                Spacer()
+
+                SearchOverlay()
+                    .edgesIgnoringSafeArea(.bottom)
+            }
+        }
     }
 }
 

@@ -8,10 +8,11 @@
 import Foundation
 
 class SearchViewModel: ObservableObject {
+    @Published var results: [Word] = []
+
     @MainActor func searchWords(query: String) {
         Task.init {
-            let _ = WordDataStore.shared.searchWords(query: query)
-            // Do something with the results!
+            results = WordDataStore.shared.searchWords(query: query)
         }
     }
 }
