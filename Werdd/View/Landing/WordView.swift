@@ -13,21 +13,7 @@ struct WordView: View {
     let definition: String
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 7) {
-            HStack(alignment: .firstTextBaseline, spacing: 10) {
-                Text(word)
-                    .font(.system(size: 24, design: .rounded))
-                    .fontWeight(.bold)
-
-                Text(partOfSpeech)
-                    .italic()
-
-                Spacer()
-            }
-
-            Text(definition)
-                .font(.system(size: 18, design: .rounded))
-        }
+        Text("WordView")
     }
 }
 

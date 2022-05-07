@@ -17,33 +17,7 @@ struct DetailContentView: View {
     }
 
     var body: some View {
-        ZStack {
-            Color.background1
-                .edgesIgnoringSafeArea(.all)
-
-            ScrollView {
-                VStack(alignment: .leading, spacing: 24) {
-                    DetailView(type: .definition, bodyText: viewModel.definition, highlightText: viewModel.partOfSpeech)
-
-                    if let synonyms = viewModel.synonyms {
-                        DetailView(type: .synonym, bodyText: synonyms, highlightText: nil)
-                    }
-
-                    if let antonyms = viewModel.antonyms {
-                        DetailView(type: .antonym, bodyText: antonyms, highlightText: nil)
-                    }
-
-                    if let examples = viewModel.examples {
-                        DetailView(type: .exampleUsage, bodyText: examples, highlightText: nil)
-                    }
-
-                    Spacer()
-                }
-            }
-            .padding()
-        }
-        .navigationTitle(word.word)
-        .navigationBarHidden(false)
+        Text("DetailContentView")
     }
 }
 

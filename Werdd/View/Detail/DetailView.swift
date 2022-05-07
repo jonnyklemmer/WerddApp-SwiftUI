@@ -13,34 +13,7 @@ struct DetailView: View {
     let highlightText: String?
 
     var body: some View {
-        ZStack {
-            type.displayColor
-
-            HStack {
-                VStack(alignment: .leading, spacing: 0) {
-                    if let highlightText = highlightText {
-                        Text(highlightText)
-                            .font(.system(size: 16, weight: .medium, design: .rounded))
-                            .italic()
-                    }
-
-                    Text(bodyText)
-                        .font(.system(size: 24, weight: .light, design: .rounded))
-
-                    Spacer(minLength: 16)
-
-                    Text(type.displayString)
-                        .font(.system(size: 14, weight: .bold, design: .rounded))
-                        .foregroundColor(.white)
-                }
-
-                Spacer()
-            }
-            .padding(.vertical)
-            .padding(.horizontal, 32)
-        }
-        .fixedSize(horizontal: false, vertical: true)
-        .clipShape(RoundedRectangle(cornerRadius: 30))
+        Text("DetailView")
     }
 }
 

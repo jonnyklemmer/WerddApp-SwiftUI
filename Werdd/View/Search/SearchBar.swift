@@ -17,20 +17,7 @@ struct SearchBar: View {
     @State private var isEditing = true
 
     var body: some View {
-        HStack {
-            HStack {
-                Image(systemName: "magnifyingglass")
-                    .foregroundColor(.gray)
-                SearchTextField(text: $text)
-            }
-            .padding(10)
-            .background(Color(.systemGray5))
-            .cornerRadius(10)
-
-            Button(action: action) {
-                Text("Search")
-            }
-        }
+        Text("SearchBar")
     }
 }
 

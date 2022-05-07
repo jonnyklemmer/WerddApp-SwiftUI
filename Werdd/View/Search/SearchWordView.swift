@@ -13,14 +13,7 @@ struct SearchWordView: View {
     let definition: String
 
     var body: some View {
-        ZStack {
-            Color.foreground3
-
-            WordView(word: word, partOfSpeech: partOfSpeech, definition: definition)
-                .padding(24)
-        }
-        .fixedSize(horizontal: false, vertical: true)
-        .clipShape(RoundedRectangle(cornerRadius: 30))
+        Text("SearchWordView")
     }
 }
 
