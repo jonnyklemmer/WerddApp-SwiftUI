@@ -35,6 +35,7 @@
 		1832262828261A51003A49A0 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832262728261A51003A49A0 /* DetailView.swift */; };
 		1832262A28262028003A49A0 /* DetailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832262928262028003A49A0 /* DetailContentView.swift */; };
 		1832262C282639B9003A49A0 /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832262B282639B9003A49A0 /* Shimmer.swift */; };
+		1832263028264CD0003A49A0 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832262F28264CD0003A49A0 /* DetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		1832262728261A51003A49A0 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		1832262928262028003A49A0 /* DetailContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContentView.swift; sourceTree = "<group>"; };
 		1832262B282639B9003A49A0 /* Shimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shimmer.swift; sourceTree = "<group>"; };
+		1832262F28264CD0003A49A0 /* DetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				183225FE2820F8F2003A49A0 /* RandomViewModel.swift */,
+				1832262F28264CD0003A49A0 /* DetailViewModel.swift */,
 				1832261B2824B564003A49A0 /* SearchViewModel.swift */,
 			);
 			path = ViewModel;
@@ -389,6 +392,7 @@
 				1832260D28224E8A003A49A0 /* RandomWordView.swift in Sources */,
 				1832262A28262028003A49A0 /* DetailContentView.swift in Sources */,
 				18322603282239F5003A49A0 /* Network+Word.swift in Sources */,
+				1832263028264CD0003A49A0 /* DetailViewModel.swift in Sources */,
 				1832261128224ECE003A49A0 /* SearchOverlay.swift in Sources */,
 				1832262C282639B9003A49A0 /* Shimmer.swift in Sources */,
 				1832261828225350003A49A0 /* CornerRadiusStyle.swift in Sources */,

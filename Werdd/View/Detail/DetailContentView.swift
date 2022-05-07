@@ -9,6 +9,12 @@ import SwiftUI
 
 struct DetailContentView: View {
     let word: Word
+    private let viewModel: DetailViewModel
+
+    init(word: Word) {
+        self.word = word
+        self.viewModel = DetailViewModel(word: word)
+    }
 
     var body: some View {
         ZStack {
@@ -17,23 +23,18 @@ struct DetailContentView: View {
 
             ScrollView {
                 VStack(alignment: .leading, spacing: 24) {
-                    if let definition = word.definition, let partOfSpeech = word.partOfSpeech {
-                        DetailView(type: .definition, bodyText: definition, highlightText: partOfSpeech)
+                    DetailView(type: .definition, bodyText: viewModel.definition, highlightText: viewModel.partOfSpeech)
+
+                    if let synonyms = viewModel.synonyms {
+                        DetailView(type: .synonym, bodyText: synonyms, highlightText: nil)
                     }
 
-                    if let synonyms = word.synonyms {
-                        let body = synonyms.joined(separator: "\n")
-                        DetailView(type: .synonym, bodyText: body, highlightText: nil)
+                    if let antonyms = viewModel.antonyms {
+                        DetailView(type: .antonym, bodyText: antonyms, highlightText: nil)
                     }
 
-                    if let antonyms = word.antonyms {
-                        let body = antonyms.joined(separator: "\n")
-                        DetailView(type: .antonym, bodyText: body, highlightText: nil)
-                    }
-
-                    if let examples = word.examples {
-                        let body = examples.joined(separator: "\n")
-                        DetailView(type: .exampleUsage, bodyText: body, highlightText: nil)
+                    if let examples = viewModel.examples {
+                        DetailView(type: .exampleUsage, bodyText: examples, highlightText: nil)
                     }
 
                     Spacer()
