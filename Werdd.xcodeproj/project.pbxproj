@@ -14,6 +14,27 @@
 		183225DE2820EFDA003A49A0 /* WerddTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183225DD2820EFDA003A49A0 /* WerddTests.swift */; };
 		183225E82820EFDA003A49A0 /* WerddUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183225E72820EFDA003A49A0 /* WerddUITests.swift */; };
 		183225EA2820EFDA003A49A0 /* WerddUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183225E92820EFDA003A49A0 /* WerddUITestsLaunchTests.swift */; };
+		183225F72820F047003A49A0 /* NetworkConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 183225F62820F047003A49A0 /* NetworkConfig.xcconfig */; };
+		183225FD2820F6FF003A49A0 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183225FC2820F6FF003A49A0 /* Network.swift */; };
+		183225FF2820F8F2003A49A0 /* RandomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183225FE2820F8F2003A49A0 /* RandomViewModel.swift */; };
+		183226012822389C003A49A0 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183226002822389C003A49A0 /* Word.swift */; };
+		18322603282239F5003A49A0 /* Network+Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18322602282239F5003A49A0 /* Network+Word.swift */; };
+		1832260B28224E7C003A49A0 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832260A28224E7C003A49A0 /* HeaderView.swift */; };
+		1832260D28224E8A003A49A0 /* RandomWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832260C28224E8A003A49A0 /* RandomWordView.swift */; };
+		1832260F28224E9D003A49A0 /* WordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832260E28224E9D003A49A0 /* WordView.swift */; };
+		1832261128224ECE003A49A0 /* SearchOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832261028224ECE003A49A0 /* SearchOverlay.swift */; };
+		1832261328224F8E003A49A0 /* LandingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832261228224F8E003A49A0 /* LandingContentView.swift */; };
+		1832261628225043003A49A0 /* Color+Werdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832261528225043003A49A0 /* Color+Werdd.swift */; };
+		1832261828225350003A49A0 /* CornerRadiusStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832261728225350003A49A0 /* CornerRadiusStyle.swift */; };
+		1832261A2824A887003A49A0 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183226192824A887003A49A0 /* SearchBar.swift */; };
+		1832261C2824B564003A49A0 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832261B2824B564003A49A0 /* SearchViewModel.swift */; };
+		1832261F2824D74E003A49A0 /* wordsapi_sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 1832261E2824D74E003A49A0 /* wordsapi_sample.json */; };
+		183226212824DD96003A49A0 /* WordDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183226202824DD96003A49A0 /* WordDataStore.swift */; };
+		18322623282610C6003A49A0 /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18322622282610C6003A49A0 /* SearchTextField.swift */; };
+		18322625282611D6003A49A0 /* SearchWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18322624282611D6003A49A0 /* SearchWordView.swift */; };
+		1832262828261A51003A49A0 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832262728261A51003A49A0 /* DetailView.swift */; };
+		1832262A28262028003A49A0 /* DetailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832262928262028003A49A0 /* DetailContentView.swift */; };
+		1832262C282639B9003A49A0 /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832262B282639B9003A49A0 /* Shimmer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +65,28 @@
 		183225E32820EFDA003A49A0 /* WerddUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WerddUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		183225E72820EFDA003A49A0 /* WerddUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WerddUITests.swift; sourceTree = "<group>"; };
 		183225E92820EFDA003A49A0 /* WerddUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WerddUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		183225F62820F047003A49A0 /* NetworkConfig.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = NetworkConfig.xcconfig; sourceTree = "<group>"; };
+		183225F82820F3C0003A49A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		183225FC2820F6FF003A49A0 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		183225FE2820F8F2003A49A0 /* RandomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomViewModel.swift; sourceTree = "<group>"; };
+		183226002822389C003A49A0 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		18322602282239F5003A49A0 /* Network+Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network+Word.swift"; sourceTree = "<group>"; };
+		1832260A28224E7C003A49A0 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		1832260C28224E8A003A49A0 /* RandomWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomWordView.swift; sourceTree = "<group>"; };
+		1832260E28224E9D003A49A0 /* WordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordView.swift; sourceTree = "<group>"; };
+		1832261028224ECE003A49A0 /* SearchOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchOverlay.swift; sourceTree = "<group>"; };
+		1832261228224F8E003A49A0 /* LandingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingContentView.swift; sourceTree = "<group>"; };
+		1832261528225043003A49A0 /* Color+Werdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Werdd.swift"; sourceTree = "<group>"; };
+		1832261728225350003A49A0 /* CornerRadiusStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusStyle.swift; sourceTree = "<group>"; };
+		183226192824A887003A49A0 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		1832261B2824B564003A49A0 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		1832261E2824D74E003A49A0 /* wordsapi_sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wordsapi_sample.json; sourceTree = "<group>"; };
+		183226202824DD96003A49A0 /* WordDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDataStore.swift; sourceTree = "<group>"; };
+		18322622282610C6003A49A0 /* SearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
+		18322624282611D6003A49A0 /* SearchWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchWordView.swift; sourceTree = "<group>"; };
+		1832262728261A51003A49A0 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		1832262928262028003A49A0 /* DetailContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContentView.swift; sourceTree = "<group>"; };
+		1832262B282639B9003A49A0 /* Shimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shimmer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +138,13 @@
 			isa = PBXGroup;
 			children = (
 				183225CC2820EFD9003A49A0 /* WerddApp.swift */,
-				183225CE2820EFD9003A49A0 /* ContentView.swift */,
+				183225FB2820F6DA003A49A0 /* View */,
+				183225FA2820F6D2003A49A0 /* ViewModel */,
+				183225F92820F6CC003A49A0 /* Model */,
+				1832261428225022003A49A0 /* Extensions */,
+				183225F82820F3C0003A49A0 /* Info.plist */,
 				183225D02820EFDA003A49A0 /* Assets.xcassets */,
+				183225F62820F047003A49A0 /* NetworkConfig.xcconfig */,
 				183225D22820EFDA003A49A0 /* Preview Content */,
 			);
 			path = Werdd;
@@ -125,6 +173,79 @@
 				183225E92820EFDA003A49A0 /* WerddUITestsLaunchTests.swift */,
 			);
 			path = WerddUITests;
+			sourceTree = "<group>";
+		};
+		183225F92820F6CC003A49A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				183226202824DD96003A49A0 /* WordDataStore.swift */,
+				183226002822389C003A49A0 /* Word.swift */,
+				183225FC2820F6FF003A49A0 /* Network.swift */,
+				18322602282239F5003A49A0 /* Network+Word.swift */,
+				1832261E2824D74E003A49A0 /* wordsapi_sample.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		183225FA2820F6D2003A49A0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				183225FE2820F8F2003A49A0 /* RandomViewModel.swift */,
+				1832261B2824B564003A49A0 /* SearchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		183225FB2820F6DA003A49A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				183225CE2820EFD9003A49A0 /* ContentView.swift */,
+				1832260928224E25003A49A0 /* Landing */,
+				1832261D2824B56C003A49A0 /* Search */,
+				1832262628261A3B003A49A0 /* Detail */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1832260928224E25003A49A0 /* Landing */ = {
+			isa = PBXGroup;
+			children = (
+				1832261228224F8E003A49A0 /* LandingContentView.swift */,
+				1832260A28224E7C003A49A0 /* HeaderView.swift */,
+				1832260C28224E8A003A49A0 /* RandomWordView.swift */,
+				1832260E28224E9D003A49A0 /* WordView.swift */,
+			);
+			path = Landing;
+			sourceTree = "<group>";
+		};
+		1832261428225022003A49A0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1832261528225043003A49A0 /* Color+Werdd.swift */,
+				1832261728225350003A49A0 /* CornerRadiusStyle.swift */,
+				1832262B282639B9003A49A0 /* Shimmer.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1832261D2824B56C003A49A0 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				1832261028224ECE003A49A0 /* SearchOverlay.swift */,
+				183226192824A887003A49A0 /* SearchBar.swift */,
+				18322622282610C6003A49A0 /* SearchTextField.swift */,
+				18322624282611D6003A49A0 /* SearchWordView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		1832262628261A3B003A49A0 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				1832262928262028003A49A0 /* DetailContentView.swift */,
+				1832262728261A51003A49A0 /* DetailView.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +354,8 @@
 			files = (
 				183225D42820EFDA003A49A0 /* Preview Assets.xcassets in Resources */,
 				183225D12820EFDA003A49A0 /* Assets.xcassets in Resources */,
+				183225F72820F047003A49A0 /* NetworkConfig.xcconfig in Resources */,
+				1832261F2824D74E003A49A0 /* wordsapi_sample.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +380,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1832261328224F8E003A49A0 /* LandingContentView.swift in Sources */,
 				183225CF2820EFD9003A49A0 /* ContentView.swift in Sources */,
+				1832261C2824B564003A49A0 /* SearchViewModel.swift in Sources */,
+				183226212824DD96003A49A0 /* WordDataStore.swift in Sources */,
+				1832261A2824A887003A49A0 /* SearchBar.swift in Sources */,
+				183225FF2820F8F2003A49A0 /* RandomViewModel.swift in Sources */,
+				1832260D28224E8A003A49A0 /* RandomWordView.swift in Sources */,
+				1832262A28262028003A49A0 /* DetailContentView.swift in Sources */,
+				18322603282239F5003A49A0 /* Network+Word.swift in Sources */,
+				1832261128224ECE003A49A0 /* SearchOverlay.swift in Sources */,
+				1832262C282639B9003A49A0 /* Shimmer.swift in Sources */,
+				1832261828225350003A49A0 /* CornerRadiusStyle.swift in Sources */,
+				183226012822389C003A49A0 /* Word.swift in Sources */,
+				18322623282610C6003A49A0 /* SearchTextField.swift in Sources */,
+				18322625282611D6003A49A0 /* SearchWordView.swift in Sources */,
+				1832260F28224E9D003A49A0 /* WordView.swift in Sources */,
 				183225CD2820EFD9003A49A0 /* WerddApp.swift in Sources */,
+				183225FD2820F6FF003A49A0 /* Network.swift in Sources */,
+				1832262828261A51003A49A0 /* DetailView.swift in Sources */,
+				1832261628225043003A49A0 /* Color+Werdd.swift in Sources */,
+				1832260B28224E7C003A49A0 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +439,7 @@
 /* Begin XCBuildConfiguration section */
 		183225EB2820EFDA003A49A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 183225F62820F047003A49A0 /* NetworkConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -357,6 +500,7 @@
 		};
 		183225EC2820EFDA003A49A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 183225F62820F047003A49A0 /* NetworkConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -420,6 +564,7 @@
 				DEVELOPMENT_TEAM = Y9VA9N3V4A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Werdd/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +594,7 @@
 				DEVELOPMENT_TEAM = Y9VA9N3V4A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Werdd/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
