@@ -8,10 +8,6 @@
 import SwiftUI
 
 struct SearchWordView: View {
-    let word: String
-    let partOfSpeech: String
-    let definition: String
-
     var body: some View {
         Text("SearchWordView")
     }
@@ -19,6 +15,6 @@ struct SearchWordView: View {
 
 struct SearchWordView_Previews: PreviewProvider {
     static var previews: some View {
-        SearchWordView(word: "preview", partOfSpeech: "verb", definition: "gettin a sneak peek.")
+        SearchWordView()
     }
 }

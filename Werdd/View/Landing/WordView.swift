@@ -8,10 +8,6 @@
 import SwiftUI
 
 struct WordView: View {
-    let word: String
-    let partOfSpeech: String
-    let definition: String
-
     var body: some View {
         Text("WordView")
     }
@@ -19,7 +15,7 @@ struct WordView: View {
 
 struct LoadingWordView: View {
     var body: some View {
-        WordView(word: "LOADING", partOfSpeech: "LOAD", definition: "LOADING...LOADING...LOADING...LOADING...LOADING...LOADING.")
+        WordView()
             .redacted(reason: .placeholder)
             .shimmering()
     }
@@ -27,10 +23,6 @@ struct LoadingWordView: View {
 
 struct WordView_Previews: PreviewProvider {
     static var previews: some View {
-        WordView(
-            word: "Palermo",
-            partOfSpeech: "noun",
-            definition: "the capital of Sicily; located in northwestern Sicily; an important port for 3000 years"
-        )
+        WordView()
     }
 }

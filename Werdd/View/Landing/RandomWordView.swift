@@ -8,14 +8,8 @@
 import SwiftUI
 
 struct RandomWordView: View {
-    @StateObject private var viewModel = RandomViewModel()
-
     var body: some View {
         Text("RandomWordView")
-    }
-
-    private func generateRandomWord() {
-        viewModel.generateRandomWord()
     }
 }
 
