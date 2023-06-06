@@ -19,8 +19,9 @@ struct SearchWordView: View {
             WordView(word: word, partOfSpeech: partOfSpeech, definition: definition)
                 .padding(24)
         }
-        .fixedSize(horizontal: false, vertical: true)
-        .clipShape(RoundedRectangle(cornerRadius: 30))
+        .fixedSize(horizontal: false, vertical: false)
+        .cornerRadius(30)
+
     }
 }
 

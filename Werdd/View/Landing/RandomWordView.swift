@@ -39,7 +39,6 @@ struct RandomWordView: View {
                             .foregroundColor(.white)
                     }
                     .padding([.bottom, .trailing], 12)
-
                 }
             }
         }

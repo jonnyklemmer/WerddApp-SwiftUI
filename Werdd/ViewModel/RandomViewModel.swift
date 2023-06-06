@@ -7,7 +7,6 @@
 
 import Foundation
 import SwiftUI
-import Combine
 
 class RandomViewModel: ObservableObject {
     private var randomWord: Word? {
@@ -36,8 +35,9 @@ class RandomViewModel: ObservableObject {
                 generateRandomWord()
                 return
             }
-
-            randomWord = word
+            withAnimation {
+                randomWord = word
+            }
         }
     }
 }
