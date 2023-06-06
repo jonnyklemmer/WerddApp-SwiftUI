@@ -1,2 +1,4 @@
-# WerddApp-Spring2022
-WerddApp from Hanko Academy Spring 2022 Cohort
+# WerddApp SwiftUI
+WerddApp from Hanko Academy built with SwiftUI.
+
+Updated for Xcode 14.2
